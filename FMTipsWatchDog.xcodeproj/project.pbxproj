@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F7FAC76E09D13CFF127C54 /* Pods_FMTipsWatchDogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7CA6F564928E6A6364861C /* Pods_FMTipsWatchDogUITests.framework */; };
+		185FEC441F4A71E30076FABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC431F4A71E30076FABB /* main.m */; };
+		185FEC471F4A71E30076FABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC461F4A71E30076FABB /* AppDelegate.m */; };
+		185FEC4A1F4A71E30076FABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC491F4A71E30076FABB /* ViewController.m */; };
+		185FEC4D1F4A71E40076FABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185FEC4B1F4A71E40076FABB /* Main.storyboard */; };
+		185FEC4F1F4A71E40076FABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185FEC4E1F4A71E40076FABB /* Assets.xcassets */; };
+		185FEC521F4A71E40076FABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185FEC501F4A71E40076FABB /* LaunchScreen.storyboard */; };
+		185FEC5D1F4A71E40076FABB /* FMTipsWatchDogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC5C1F4A71E40076FABB /* FMTipsWatchDogTests.m */; };
+		185FEC681F4A71E40076FABB /* FMTipsWatchDogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC671F4A71E40076FABB /* FMTipsWatchDogUITests.m */; };
+		185FEC781F4A73CC0076FABB /* FMTipsWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC771F4A73CC0076FABB /* FMTipsWatchDog.m */; };
+		185FEC7F1F4A847C0076FABB /* FMTipsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC7E1F4A847C0076FABB /* FMTipsPage.m */; };
+		185FEC821F4A8FC40076FABB /* FMInternalTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC811F4A8FC40076FABB /* FMInternalTips.m */; };
+		185FEC851F4A90AF0076FABB /* FMTipsPageSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC841F4A90AF0076FABB /* FMTipsPageSimple.m */; };
+		185FEC881F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC871F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m */; };
+		5B3AFEE531740DAD16A77808 /* Pods_FMTipsWatchDogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF42340D604B7FDE5728CB /* Pods_FMTipsWatchDogTests.framework */; };
+		FF2946A3A3CB8B9A162D5EB4 /* Pods_FMTipsWatchDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DBBE1A2C83EA5ADB5437F7 /* Pods_FMTipsWatchDog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185FEC591F4A71E40076FABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185FEC371F4A71E30076FABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185FEC3E1F4A71E30076FABB;
+			remoteInfo = FMTipsWatchDog;
+		};
+		185FEC641F4A71E40076FABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185FEC371F4A71E30076FABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185FEC3E1F4A71E30076FABB;
+			remoteInfo = FMTipsWatchDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1084391FBC75698FD27DD4E3 /* Pods-FMTipsWatchDogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDogUITests/Pods-FMTipsWatchDogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		185FEC3F1F4A71E30076FABB /* FMTipsWatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMTipsWatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185FEC431F4A71E30076FABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185FEC451F4A71E30076FABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185FEC461F4A71E30076FABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185FEC481F4A71E30076FABB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185FEC491F4A71E30076FABB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185FEC4C1F4A71E40076FABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185FEC4E1F4A71E40076FABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185FEC511F4A71E40076FABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185FEC531F4A71E40076FABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185FEC581F4A71E40076FABB /* FMTipsWatchDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMTipsWatchDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185FEC5C1F4A71E40076FABB /* FMTipsWatchDogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTipsWatchDogTests.m; sourceTree = "<group>"; };
+		185FEC5E1F4A71E40076FABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185FEC631F4A71E40076FABB /* FMTipsWatchDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMTipsWatchDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185FEC671F4A71E40076FABB /* FMTipsWatchDogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTipsWatchDogUITests.m; sourceTree = "<group>"; };
+		185FEC691F4A71E40076FABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185FEC761F4A73CC0076FABB /* FMTipsWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTipsWatchDog.h; sourceTree = "<group>"; };
+		185FEC771F4A73CC0076FABB /* FMTipsWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTipsWatchDog.m; sourceTree = "<group>"; };
+		185FEC791F4A74020076FABB /* FMTipsPageConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTipsPageConstraints.h; sourceTree = "<group>"; };
+		185FEC7D1F4A847C0076FABB /* FMTipsPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTipsPage.h; sourceTree = "<group>"; };
+		185FEC7E1F4A847C0076FABB /* FMTipsPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTipsPage.m; sourceTree = "<group>"; };
+		185FEC801F4A8FC40076FABB /* FMInternalTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMInternalTips.h; sourceTree = "<group>"; };
+		185FEC811F4A8FC40076FABB /* FMInternalTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMInternalTips.m; sourceTree = "<group>"; };
+		185FEC831F4A90AF0076FABB /* FMTipsPageSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTipsPageSimple.h; sourceTree = "<group>"; };
+		185FEC841F4A90AF0076FABB /* FMTipsPageSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTipsPageSimple.m; sourceTree = "<group>"; };
+		185FEC861F4AC1580076FABB /* FMSkipATipsSequenceConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMSkipATipsSequenceConstraints.h; sourceTree = "<group>"; };
+		185FEC871F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMSkipATipsSequenceConstraints.m; sourceTree = "<group>"; };
+		2147A949141B02104E160846 /* Pods-FMTipsWatchDogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDogTests/Pods-FMTipsWatchDogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36DBBE1A2C83EA5ADB5437F7 /* Pods_FMTipsWatchDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMTipsWatchDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BF42340D604B7FDE5728CB /* Pods_FMTipsWatchDogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMTipsWatchDogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50108FD7339EE344FA491B1 /* Pods-FMTipsWatchDogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDogTests/Pods-FMTipsWatchDogTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF7CA6F564928E6A6364861C /* Pods_FMTipsWatchDogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMTipsWatchDogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69D921BB92BAF4DC53EC98C /* Pods-FMTipsWatchDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDog.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDog/Pods-FMTipsWatchDog.release.xcconfig"; sourceTree = "<group>"; };
+		C8DA679C2031028763204601 /* Pods-FMTipsWatchDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDog/Pods-FMTipsWatchDog.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A579109A34AF6F19DAC6DA /* Pods-FMTipsWatchDogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDogUITests/Pods-FMTipsWatchDogUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185FEC3C1F4A71E30076FABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2946A3A3CB8B9A162D5EB4 /* Pods_FMTipsWatchDog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FEC551F4A71E40076FABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3AFEE531740DAD16A77808 /* Pods_FMTipsWatchDogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FEC601F4A71E40076FABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F7FAC76E09D13CFF127C54 /* Pods_FMTipsWatchDogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185FEC361F4A71E30076FABB = {
+			isa = PBXGroup;
+			children = (
+				185FEC411F4A71E30076FABB /* FMTipsWatchDog */,
+				185FEC5B1F4A71E40076FABB /* FMTipsWatchDogTests */,
+				185FEC661F4A71E40076FABB /* FMTipsWatchDogUITests */,
+				185FEC401F4A71E30076FABB /* Products */,
+				BF4D4F29DD4D10E57771AAEC /* Pods */,
+				5697BC4B03DD18D30FF250D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185FEC401F4A71E30076FABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185FEC3F1F4A71E30076FABB /* FMTipsWatchDog.app */,
+				185FEC581F4A71E40076FABB /* FMTipsWatchDogTests.xctest */,
+				185FEC631F4A71E40076FABB /* FMTipsWatchDogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185FEC411F4A71E30076FABB /* FMTipsWatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				185FEC751F4A720A0076FABB /* Classes */,
+				185FEC451F4A71E30076FABB /* AppDelegate.h */,
+				185FEC461F4A71E30076FABB /* AppDelegate.m */,
+				185FEC481F4A71E30076FABB /* ViewController.h */,
+				185FEC491F4A71E30076FABB /* ViewController.m */,
+				185FEC4B1F4A71E40076FABB /* Main.storyboard */,
+				185FEC4E1F4A71E40076FABB /* Assets.xcassets */,
+				185FEC501F4A71E40076FABB /* LaunchScreen.storyboard */,
+				185FEC531F4A71E40076FABB /* Info.plist */,
+				185FEC421F4A71E30076FABB /* Supporting Files */,
+				185FEC861F4AC1580076FABB /* FMSkipATipsSequenceConstraints.h */,
+				185FEC871F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m */,
+			);
+			path = FMTipsWatchDog;
+			sourceTree = "<group>";
+		};
+		185FEC421F4A71E30076FABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185FEC431F4A71E30076FABB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185FEC5B1F4A71E40076FABB /* FMTipsWatchDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				185FEC5C1F4A71E40076FABB /* FMTipsWatchDogTests.m */,
+				185FEC5E1F4A71E40076FABB /* Info.plist */,
+			);
+			path = FMTipsWatchDogTests;
+			sourceTree = "<group>";
+		};
+		185FEC661F4A71E40076FABB /* FMTipsWatchDogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185FEC671F4A71E40076FABB /* FMTipsWatchDogUITests.m */,
+				185FEC691F4A71E40076FABB /* Info.plist */,
+			);
+			path = FMTipsWatchDogUITests;
+			sourceTree = "<group>";
+		};
+		185FEC751F4A720A0076FABB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				185FEC761F4A73CC0076FABB /* FMTipsWatchDog.h */,
+				185FEC771F4A73CC0076FABB /* FMTipsWatchDog.m */,
+				185FEC791F4A74020076FABB /* FMTipsPageConstraints.h */,
+				185FEC7D1F4A847C0076FABB /* FMTipsPage.h */,
+				185FEC7E1F4A847C0076FABB /* FMTipsPage.m */,
+				185FEC801F4A8FC40076FABB /* FMInternalTips.h */,
+				185FEC811F4A8FC40076FABB /* FMInternalTips.m */,
+				185FEC831F4A90AF0076FABB /* FMTipsPageSimple.h */,
+				185FEC841F4A90AF0076FABB /* FMTipsPageSimple.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5697BC4B03DD18D30FF250D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36DBBE1A2C83EA5ADB5437F7 /* Pods_FMTipsWatchDog.framework */,
+				44BF42340D604B7FDE5728CB /* Pods_FMTipsWatchDogTests.framework */,
+				BF7CA6F564928E6A6364861C /* Pods_FMTipsWatchDogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4D4F29DD4D10E57771AAEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8DA679C2031028763204601 /* Pods-FMTipsWatchDog.debug.xcconfig */,
+				C69D921BB92BAF4DC53EC98C /* Pods-FMTipsWatchDog.release.xcconfig */,
+				2147A949141B02104E160846 /* Pods-FMTipsWatchDogTests.debug.xcconfig */,
+				A50108FD7339EE344FA491B1 /* Pods-FMTipsWatchDogTests.release.xcconfig */,
+				1084391FBC75698FD27DD4E3 /* Pods-FMTipsWatchDogUITests.debug.xcconfig */,
+				D7A579109A34AF6F19DAC6DA /* Pods-FMTipsWatchDogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185FEC3E1F4A71E30076FABB /* FMTipsWatchDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185FEC6C1F4A71E40076FABB /* Build configuration list for PBXNativeTarget "FMTipsWatchDog" */;
+			buildPhases = (
+				737499EA83DCC5469E4B934B /* [CP] Check Pods Manifest.lock */,
+				185FEC3B1F4A71E30076FABB /* Sources */,
+				185FEC3C1F4A71E30076FABB /* Frameworks */,
+				185FEC3D1F4A71E30076FABB /* Resources */,
+				3DD7BE6F824A2668D12EC283 /* [CP] Embed Pods Frameworks */,
+				BA3C298430B9666F10128E49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMTipsWatchDog;
+			productName = FMTipsWatchDog;
+			productReference = 185FEC3F1F4A71E30076FABB /* FMTipsWatchDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185FEC571F4A71E40076FABB /* FMTipsWatchDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185FEC6F1F4A71E40076FABB /* Build configuration list for PBXNativeTarget "FMTipsWatchDogTests" */;
+			buildPhases = (
+				0C955EDA9FBFB93C90DA3049 /* [CP] Check Pods Manifest.lock */,
+				185FEC541F4A71E40076FABB /* Sources */,
+				185FEC551F4A71E40076FABB /* Frameworks */,
+				185FEC561F4A71E40076FABB /* Resources */,
+				90C6E39F51414B707EC67D56 /* [CP] Embed Pods Frameworks */,
+				4BBA40ECAF039574414D64B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185FEC5A1F4A71E40076FABB /* PBXTargetDependency */,
+			);
+			name = FMTipsWatchDogTests;
+			productName = FMTipsWatchDogTests;
+			productReference = 185FEC581F4A71E40076FABB /* FMTipsWatchDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185FEC621F4A71E40076FABB /* FMTipsWatchDogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185FEC721F4A71E40076FABB /* Build configuration list for PBXNativeTarget "FMTipsWatchDogUITests" */;
+			buildPhases = (
+				47EEF15C6610CBB21BEB1E00 /* [CP] Check Pods Manifest.lock */,
+				185FEC5F1F4A71E40076FABB /* Sources */,
+				185FEC601F4A71E40076FABB /* Frameworks */,
+				185FEC611F4A71E40076FABB /* Resources */,
+				CE9803540A2ECD95098C801A /* [CP] Embed Pods Frameworks */,
+				51F1D0FFA26EF7E71F80723A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185FEC651F4A71E40076FABB /* PBXTargetDependency */,
+			);
+			name = FMTipsWatchDogUITests;
+			productName = FMTipsWatchDogUITests;
+			productReference = 185FEC631F4A71E40076FABB /* FMTipsWatchDogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185FEC371F4A71E30076FABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fantasy;
+				TargetAttributes = {
+					185FEC3E1F4A71E30076FABB = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = S7VSUA36LS;
+						ProvisioningStyle = Manual;
+					};
+					185FEC571F4A71E40076FABB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185FEC3E1F4A71E30076FABB;
+					};
+					185FEC621F4A71E40076FABB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185FEC3E1F4A71E30076FABB;
+					};
+				};
+			};
+			buildConfigurationList = 185FEC3A1F4A71E30076FABB /* Build configuration list for PBXProject "FMTipsWatchDog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185FEC361F4A71E30076FABB;
+			productRefGroup = 185FEC401F4A71E30076FABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185FEC3E1F4A71E30076FABB /* FMTipsWatchDog */,
+				185FEC571F4A71E40076FABB /* FMTipsWatchDogTests */,
+				185FEC621F4A71E40076FABB /* FMTipsWatchDogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185FEC3D1F4A71E30076FABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185FEC521F4A71E40076FABB /* LaunchScreen.storyboard in Resources */,
+				185FEC4F1F4A71E40076FABB /* Assets.xcassets in Resources */,
+				185FEC4D1F4A71E40076FABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FEC561F4A71E40076FABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FEC611F4A71E40076FABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C955EDA9FBFB93C90DA3049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD7BE6F824A2668D12EC283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMTipsWatchDog/Pods-FMTipsWatchDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47EEF15C6610CBB21BEB1E00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBA40ECAF039574414D64B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMTipsWatchDogTests/Pods-FMTipsWatchDogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F1D0FFA26EF7E71F80723A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMTipsWatchDogUITests/Pods-FMTipsWatchDogUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737499EA83DCC5469E4B934B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90C6E39F51414B707EC67D56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMTipsWatchDogTests/Pods-FMTipsWatchDogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3C298430B9666F10128E49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMTipsWatchDog/Pods-FMTipsWatchDog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9803540A2ECD95098C801A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMTipsWatchDogUITests/Pods-FMTipsWatchDogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185FEC3B1F4A71E30076FABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185FEC4A1F4A71E30076FABB /* ViewController.m in Sources */,
+				185FEC821F4A8FC40076FABB /* FMInternalTips.m in Sources */,
+				185FEC471F4A71E30076FABB /* AppDelegate.m in Sources */,
+				185FEC7F1F4A847C0076FABB /* FMTipsPage.m in Sources */,
+				185FEC441F4A71E30076FABB /* main.m in Sources */,
+				185FEC781F4A73CC0076FABB /* FMTipsWatchDog.m in Sources */,
+				185FEC881F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m in Sources */,
+				185FEC851F4A90AF0076FABB /* FMTipsPageSimple.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FEC541F4A71E40076FABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185FEC5D1F4A71E40076FABB /* FMTipsWatchDogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185FEC5F1F4A71E40076FABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185FEC681F4A71E40076FABB /* FMTipsWatchDogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185FEC5A1F4A71E40076FABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185FEC3E1F4A71E30076FABB /* FMTipsWatchDog */;
+			targetProxy = 185FEC591F4A71E40076FABB /* PBXContainerItemProxy */;
+		};
+		185FEC651F4A71E40076FABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185FEC3E1F4A71E30076FABB /* FMTipsWatchDog */;
+			targetProxy = 185FEC641F4A71E40076FABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185FEC4B1F4A71E40076FABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185FEC4C1F4A71E40076FABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185FEC501F4A71E40076FABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185FEC511F4A71E40076FABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185FEC6A1F4A71E40076FABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185FEC6B1F4A71E40076FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185FEC6D1F4A71E40076FABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DA679C2031028763204601 /* Pods-FMTipsWatchDog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7VSUA36LS;
+				INFOPLIST_FILE = FMTipsWatchDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.FMTipsWatchDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ab69c81-ab9c-4e95-8603-67749ce8d351";
+				PROVISIONING_PROFILE_SPECIFIER = "smart control enterprise";
+			};
+			name = Debug;
+		};
+		185FEC6E1F4A71E40076FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69D921BB92BAF4DC53EC98C /* Pods-FMTipsWatchDog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7VSUA36LS;
+				INFOPLIST_FILE = FMTipsWatchDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.FMTipsWatchDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ab69c81-ab9c-4e95-8603-67749ce8d351";
+				PROVISIONING_PROFILE_SPECIFIER = "smart control enterprise";
+			};
+			name = Release;
+		};
+		185FEC701F4A71E40076FABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2147A949141B02104E160846 /* Pods-FMTipsWatchDogTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMTipsWatchDogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.FMTipsWatchDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMTipsWatchDog.app/FMTipsWatchDog";
+			};
+			name = Debug;
+		};
+		185FEC711F4A71E40076FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50108FD7339EE344FA491B1 /* Pods-FMTipsWatchDogTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMTipsWatchDogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.FMTipsWatchDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMTipsWatchDog.app/FMTipsWatchDog";
+			};
+			name = Release;
+		};
+		185FEC731F4A71E40076FABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1084391FBC75698FD27DD4E3 /* Pods-FMTipsWatchDogUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FMTipsWatchDogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.FMTipsWatchDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMTipsWatchDog;
+			};
+			name = Debug;
+		};
+		185FEC741F4A71E40076FABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A579109A34AF6F19DAC6DA /* Pods-FMTipsWatchDogUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FMTipsWatchDogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.FMTipsWatchDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMTipsWatchDog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185FEC3A1F4A71E30076FABB /* Build configuration list for PBXProject "FMTipsWatchDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FEC6A1F4A71E40076FABB /* Debug */,
+				185FEC6B1F4A71E40076FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185FEC6C1F4A71E40076FABB /* Build configuration list for PBXNativeTarget "FMTipsWatchDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FEC6D1F4A71E40076FABB /* Debug */,
+				185FEC6E1F4A71E40076FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185FEC6F1F4A71E40076FABB /* Build configuration list for PBXNativeTarget "FMTipsWatchDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FEC701F4A71E40076FABB /* Debug */,
+				185FEC711F4A71E40076FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185FEC721F4A71E40076FABB /* Build configuration list for PBXNativeTarget "FMTipsWatchDogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185FEC731F4A71E40076FABB /* Debug */,
+				185FEC741F4A71E40076FABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185FEC371F4A71E30076FABB /* Project object */;
+}
