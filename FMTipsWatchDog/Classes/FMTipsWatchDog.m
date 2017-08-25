@@ -54,6 +54,10 @@
     nil == page ? : [page markToShown:tipsName];
 }
 
+- (BOOL) hasShown:(NSString *)tipsName forPage:(NSString *)pageName {
+    return [[_tipsPages objectForKey:pageName] hasShown:tipsName];
+}
+
 - (RACSignal *) signalForPage:(NSString *)pageName {
     FMTipsPage *page = [_tipsPages objectForKey:pageName];
     return nil == page ? nil : [page tipsSignal];

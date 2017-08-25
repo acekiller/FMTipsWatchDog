@@ -15,34 +15,6 @@
 
 + (instancetype) defaultManager;
 
-/*
- *  tipsSequences为tipsName的字符串序列
- *  tipsSequences中多个tipsName默认采用->作为分割符分隔符
- */
-//- (void) registerTips:(NSString *)tipsSequences
-//                 page:(NSString *)pageName;
-//
-///*
-// *  tipsSequences为tipsName的字符串序列
-// *  tipsSequences中多个tipsName默认采用->作为分割符分隔符
-// */
-//- (void) registerTips:(NSString *)tipsSequences
-//                 page:(NSString *)pageName
-//          constraints:(id<FMTipsPageConstraints>)pageConstraints;
-
-/*
- *  tipsSequences为tipsName的字符串序列
- *  separatedBy为tipsSequences中多个tipsName的分隔符。
- */
-//- (void) registerTips:(NSString *)tipsSequences
-//          separatedBy:(NSString *)separatedBy
-//                 page:(NSString *)pageName
-//          constraints:(id<FMTipsPageConstraints>)pageConstraints;
-
-/*
- *  tipsSequences为tipsName的字符串序列
- *  separatedBy为tipsSequences中多个tipsName的分隔符。
- */
 - (void) registerTipsForPage:(NSString *)pageName
                  constraints:(id<FMTipsPageConstraints>)pageConstraints;
 
@@ -55,6 +27,8 @@
  *  用于标记指定tips为已显示状态，已显示状态的tips在以后的提示中将直接被忽略。
  */
 - (void) markToShown:(NSString *)tipsName forPage:(NSString *)pageName;
+
+- (BOOL) hasShown:(NSString *)tipsName forPage:(NSString *)pageName;
 
 /*
  *  tips显示响应。一旦有指定pageName的tips事件被触发，将执行相关订阅。

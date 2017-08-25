@@ -25,6 +25,8 @@
 
 - (void) markToShown:(NSString *)tipsName;
 
+- (BOOL) hasShown:(NSString *)tipsName;
+
 - (void) sendNextTips;
 
 - (void) sendNextTipsFConditions:(NSDictionary *)conditions;

@@ -92,6 +92,17 @@
     }
 }
 
+- (BOOL) hasShown:(NSString *)tipsName {
+    for (FMInternalTips *tips in _tipsObjects) {
+        if (![tips.tipsName isEqualToString:tipsName]) {
+            continue;
+        } else {
+            return [tips hasShown];
+        }
+    }
+    return NO;
+}
+
 - (RACSignal *) tipsSignal {
     return [[self.subject throttle:0.5]
             map:^id(FMInternalTips *tips) {
