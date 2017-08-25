@@ -21,6 +21,7 @@
 		185FEC821F4A8FC40076FABB /* FMInternalTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC811F4A8FC40076FABB /* FMInternalTips.m */; };
 		185FEC851F4A90AF0076FABB /* FMTipsPageSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC841F4A90AF0076FABB /* FMTipsPageSimple.m */; };
 		185FEC881F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FEC871F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m */; };
+		18A0CC321F50061100A058F7 /* license in Resources */ = {isa = PBXBuildFile; fileRef = 18A0CC311F50061100A058F7 /* license */; };
 		5B3AFEE531740DAD16A77808 /* Pods_FMTipsWatchDogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF42340D604B7FDE5728CB /* Pods_FMTipsWatchDogTests.framework */; };
 		FF2946A3A3CB8B9A162D5EB4 /* Pods_FMTipsWatchDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DBBE1A2C83EA5ADB5437F7 /* Pods_FMTipsWatchDog.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		185FEC841F4A90AF0076FABB /* FMTipsPageSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTipsPageSimple.m; sourceTree = "<group>"; };
 		185FEC861F4AC1580076FABB /* FMSkipATipsSequenceConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMSkipATipsSequenceConstraints.h; sourceTree = "<group>"; };
 		185FEC871F4AC1580076FABB /* FMSkipATipsSequenceConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMSkipATipsSequenceConstraints.m; sourceTree = "<group>"; };
+		18A0CC311F50061100A058F7 /* license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license; sourceTree = "<group>"; };
 		2147A949141B02104E160846 /* Pods-FMTipsWatchDogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMTipsWatchDogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMTipsWatchDogTests/Pods-FMTipsWatchDogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		36DBBE1A2C83EA5ADB5437F7 /* Pods_FMTipsWatchDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMTipsWatchDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BF42340D604B7FDE5728CB /* Pods_FMTipsWatchDogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMTipsWatchDogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 		185FEC361F4A71E30076FABB = {
 			isa = PBXGroup;
 			children = (
+				18A0CC311F50061100A058F7 /* license */,
 				185FEC411F4A71E30076FABB /* FMTipsWatchDog */,
 				185FEC5B1F4A71E40076FABB /* FMTipsWatchDogTests */,
 				185FEC661F4A71E40076FABB /* FMTipsWatchDogUITests */,
@@ -333,6 +336,7 @@
 			files = (
 				185FEC521F4A71E40076FABB /* LaunchScreen.storyboard in Resources */,
 				185FEC4F1F4A71E40076FABB /* Assets.xcassets in Resources */,
+				18A0CC321F50061100A058F7 /* license in Resources */,
 				185FEC4D1F4A71E40076FABB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
